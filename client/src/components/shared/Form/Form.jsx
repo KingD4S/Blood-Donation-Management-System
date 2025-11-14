@@ -48,7 +48,7 @@ const Form = ({ formType, submitBtn, formTitle }) => {
               defaultChecked
             />
             <label htmlFor="adminRadio" className="form-check-label">
-              Donar
+              Donor
             </label>
           </div>
           <div className="form-check ms-2">
@@ -200,12 +200,12 @@ const Form = ({ formType, submitBtn, formTitle }) => {
         <div className="d-flex flex-row justify-content-between">
           {formType === "login" ? (
             <p>
-              Not registerd yet ? Register
+              Not registered yet ? Register
               <Link to="/register"> Here !</Link>
             </p>
           ) : (
             <p>
-              ALready Usser Please
+              ALready User Please
               <Link to="/login"> Login !</Link>
             </p>
           )}
